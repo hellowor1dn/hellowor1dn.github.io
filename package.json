@@ -8,11 +8,13 @@
     "url": "git+https://github.com/hellowor1dn/hellowor1dn.github.io.git"
   },
   "scripts": {
+    "wipe": "npm run clean && rm -rf node_modules/",
+    "clean": "rm -rf public/build/",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
     "validate": "svelte-check",
-    "predeploy": "npm run build",
+    "predeploy": "npm run clean && npm run build",
     "deploy": "gh-pages -d public"
   },
   "devDependencies": {

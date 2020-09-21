@@ -5,8 +5,8 @@
     "App.svelte"
   ],
   "sourcesContent": [
-    "<script lang=\"ts\">export let host;\nif ((host == window.location.host) && (window.location.protocol != \"https:\")) {\n    window.location.protocol = \"https\";\n}\n</script>\n\n<main>\n    <h1>Under maintenance.</h1>\n</main>\n\n<style>\n    main {\n        text-align: center;\n        padding: 1em;\n        max-width: 240px;\n        margin: 0 auto;\n    }\n\n    h1 {\n        color: #007bff;\n        text-transform: uppercase;\n        font-size: 4em;\n        font-weight: 100;\n    }\n\n    @media (min-width: 640px) {\n        main {\n            max-width: none;\n        }\n    }\n</style>\n"
+    "<script lang=\"ts\"></script>\n\n<main>\n    <h1>Under maintenance.</h1>\n</main>\n\n<style>\n    main {\n        text-align: center;\n        padding: 1em;\n        max-width: 240px;\n        margin: 0 auto;\n    }\n\n    h1 {\n        color: #007bff;\n        text-transform: uppercase;\n        font-size: 4em;\n        font-weight: 100;\n    }\n\n    @media (min-width: 640px) {\n        main {\n            max-width: none;\n        }\n    }\n</style>\n"
   ],
   "names": [],
-  "mappings": "AAWI,IAAI,cAAC,CAAC,AACF,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AAClB,CAAC,AAED,EAAE,cAAC,CAAC,AACA,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AACpB,CAAC,AAED,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACvB,IAAI,cAAC,CAAC,AACF,SAAS,CAAE,IAAI,AACnB,CAAC,AACL,CAAC"
+  "mappings": "AAOI,IAAI,cAAC,CAAC,AACF,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AAClB,CAAC,AAED,EAAE,cAAC,CAAC,AACA,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AACpB,CAAC,AAED,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACvB,IAAI,cAAC,CAAC,AACF,SAAS,CAAE,IAAI,AACnB,CAAC,AACL,CAAC"
 }
